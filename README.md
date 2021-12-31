@@ -52,3 +52,6 @@ snap install pop-themes
 snap connect calaboka:gtk-3-themes pop-themes:gtk-3-themes
 snap connect calaboka:icon-themes pop-themes:icon-themes
 ```
+
+## Limitations
+- Calaboka can only mute Spotify ads playing on the same computer. While Spotify allows you to play music on other (remote) devices, Calaboka can only mute Spotify on the same local machine. So make sure you install Calaboka where you intend to play your music (as long as it's a Linux machine).
