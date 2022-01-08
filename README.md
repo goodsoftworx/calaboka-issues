@@ -48,9 +48,9 @@ Calaboka supports common GTK themes out of the box. This section provides inform
 ### Pop!\_OS theme
 Install the [pop-themes snap](https://snapcraft.io/pop-themes) and follow the instructions provided in its description. Relaunch the Calaboka app and you should see the Pop themes listed in the _Change theme_ dialog. Alternatively, you can run the following commands from a terminal:
 ```Shell
-snap install pop-themes
-snap connect calaboka:gtk-3-themes pop-themes:gtk-3-themes
-snap connect calaboka:icon-themes pop-themes:icon-themes
+sudo snap install pop-themes
+sudo snap connect calaboka:gtk-3-themes pop-themes:gtk-3-themes
+sudo snap connect calaboka:icon-themes pop-themes:icon-themes
 ```
 
 ## Limitations
