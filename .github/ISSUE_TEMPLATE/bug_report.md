@@ -32,7 +32,7 @@ Provide the following information about your environment:
 - Calaboka version (go to the main menu -> About)
 - Run the following command on a terminal and attach the output:
 ```Shell
-snap --version; snap info calaboka spotify; echo "Desktop: $XDG_CURRENT_DESKTOP"; echo "Session: $XDG_SESSION_TYPE"
+snap --version; snap info snapd calaboka spotify; echo "Desktop: $XDG_CURRENT_DESKTOP"; echo "Session: $XDG_SESSION_TYPE"
 ```
 
 ## Additional information
