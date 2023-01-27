@@ -1,0 +1,9 @@
+plugins:
+  - jekyll-relative-links
+  - jekyll-remote-theme
+relative_links:
+  enabled: true
+  collections: true
+include:
+  - README.md
+remote_theme: pages-themes/cayman@v0.2.0
