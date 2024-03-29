@@ -21,6 +21,11 @@ Follow the [installation instructions](#installation) below and the troubleshoot
 ## Installation
 If you are having issues installing Calaboka on your choice of Linux distribution, refer to the installation instructions provided by Snapcraft on the [Calaboka snap page](https://snapcraft.io/calaboka).
 
+If you are unable to install Calaboka due to "experimental feature disabled", please run the following command and try again:
+```
+sudo snap set system experimental.user-daemons=true
+```
+
 ## Collecting logs
 When reporting an issue, please attach logs if applicable. Calaboka has two processes: a user daemon (background service) and a GUI app. Both produce log output, which can help with troubleshooting and bug investigations. Try to keep track of when the issue occurred and collect the logs for that period of time.
 
