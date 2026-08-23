@@ -54,16 +54,5 @@ Spotify often plays 2 ads in a row, sometimes even 3. Calaboka can detect and mu
 ### Disable Automix
 We recommend that you disable the `Automix` option in Spotify for better results, otherwise you might hear bits of advertisement during transitions between tracks and muted ads. This option can be found in Spotify under `Settings` -> `Playback` -> `Automix`. Note that Calaboka uses its own fading effect to smooth transitions between tracks and muted ads.
 
-## GTK themes
-Calaboka supports common GTK themes out of the box. This section provides information on how to install additional themes (if available).
-
-### Pop!\_OS theme
-Install the [pop-themes snap](https://snapcraft.io/pop-themes) and follow the instructions provided in its description. Relaunch the Calaboka app and you should see the Pop themes listed in the _Change theme_ dialog. Alternatively, you can run the following commands from a terminal:
-```Shell
-sudo snap install pop-themes
-sudo snap connect calaboka:gtk-3-themes pop-themes:gtk-3-themes
-sudo snap connect calaboka:icon-themes pop-themes:icon-themes
-```
-
 ## Limitations
 - Calaboka can only mute Spotify ads playing on the same computer. While Spotify allows you to play music on other (remote) devices, Calaboka can only mute Spotify on the same local machine. So make sure you install Calaboka where you intend to play your music (as long as it's a Linux machine).
