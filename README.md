@@ -48,9 +48,7 @@ calaboka
 # Other helpful information
 
 ## Multiple ads
-Spotify often plays 2 ads in a row, sometimes even 3. Calaboka can detect and mute them with precision. Incidentally, that's likely what happened to this user, who seems to have confused the muting of a second ad with the next song, leaving us a poor review instead of creating a github issue.
-
-![Screenshot from 2023-01-27 17-53-58](https://user-images.githubusercontent.com/91692211/215223431-c69300ce-4b13-493a-a61f-8bd6462a8d7d.png)
+Spotify often plays 2 ads in a row, sometimes even 3. Calaboka can detect and mute them with precision.
 
 ## Spotify configuration
 ### Disable Automix
